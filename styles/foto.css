@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  background: url('../images/foto.jpg');
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100%;
+  flex-direction: column;
+  opacity: 90%;
+}
+
+img {
+  border-radius: 10px;
+}
+
+h1 {
+  color: #031b86;
+}

@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../images/gif.gif");
+  background-size: 100%;
+  flex-direction: column;
+  opacity: 90%;
+}
+
+h1 {
+  color: #b99700;
+  font-size: 80px;
+}
+
+h2 {
+  color: #b99700;
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+#container div {
+  margin-top: 60px;
+}
+
+button {
+  height: 150px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: #690505;
+  opacity: 70%;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #a71515;
+  cursor: pointer;
+  opacity: 85%;
+}
